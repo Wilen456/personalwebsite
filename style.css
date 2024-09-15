@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f8f9fa;
+}
+
+/* Intro Section */
+#intro {
+    background-color: #007bff;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+#intro h1 {
+    font-size: 3rem;
+}
+
+#intro p {
+    font-size: 1.25rem;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#skills h2 {
+    color: #007bff;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills ul li {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+/* Interests Section */
+#interests {
+    background-color: #28a745;
+    color: white;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#interests h2 {
+    color: #ffffff;
+}
+
+/* Experience Section */
+#experience {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#experience h2 {
+    color: #007bff;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #6c757d;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#contact h2 {
+    color: #ffffff;
+}
+
+#contact a {
+    margin: 10px;
+    font-weight: 500;
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: #343a40;
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Section Padding */
+section {
+    margin-bottom: 40px;
+}
